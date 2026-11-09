@@ -2,12 +2,12 @@
 
 ## 0.1.0 - 2026-11-09
 
-First build, for 7 Days to Die v3.4 (b10). Loads cleanly on a dedicated
-server; not yet tested in a game.
+First release, for 7 Days to Die v3.4 (b10). Tested in single player.
 
 ### Added
 
-- **Sleep** in the hold-E menu of bedrolls and beds, single player only.
+- **Sleep** in the hold-E menu of bedrolls, single player only. Beds show
+  "Press E to Sleep" instead, since Sleep is their only action.
 - Sleep from 20:00 until dawn; wake at the world's dawn hour.
 - Refused when an enemy is within 30 m of the bed (dormant POI zombies count),
   or when any part of the night is blood moon time.

@@ -3,14 +3,17 @@
 A single-player mod for **7 Days to Die v3.4** that lets you sleep through the
 night in your bedroll and wake up **Well Rested**.
 
-> **Status: 0.1.0, untested in game.** Built for v3.4 (b10). The mod loads
-> cleanly on a dedicated server (patches, buff and config), but sleeping itself
-> has not been tried in a game yet.
+> **Status: 0.1.0.** Built for v3.4 (b10) and tested in single player:
+> sleeping from a bedroll and a bed, before and after midnight, refusal before
+> 20:00, with an enemy nearby and on a blood moon night, the night's food and
+> water cost, the Well Rested buff (including after a save and reload) and
+> reloading the config.
 
 ## What it does
 
-- Place a bedroll (any colour) or a bed, look at it and **hold E**. The radial
-  menu gets a new **Sleep** entry next to Take.
+- Place a bedroll (any colour), look at it and **hold E**. The radial menu gets
+  a new **Sleep** entry next to Take. A bed can't be picked up, so it just says
+  **Press E to Sleep**.
 - Choose **Sleep** and the screen fades to black. You wake at **dawn** (the
   world's dawn hour, which follows your day-length setting) and the screen
   fades back in.
